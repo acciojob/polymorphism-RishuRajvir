@@ -6,7 +6,7 @@ public class Main {
         int ans = p.product(10,15);
         int ans1 = p.product(10,15,20);
 
-        double ans2 = p.product(1.2,2.6,9.8);
+        double ans2 = p.product(1.2,2.6);
         System.out.println(ans+" "+ans2+" "+ans1);
     }
 
@@ -18,8 +18,8 @@ public class Main {
        public int product(int x, int y, int z) {
            return x*y*z;
        }
-       public double product(double x, double y, double z) {
-           return x*y*z;
+       public double product(double x, double y) {
+           return x*y;
        }
 
     }
